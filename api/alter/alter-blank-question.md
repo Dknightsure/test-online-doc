@@ -11,7 +11,6 @@
 | :---:  | :----: | :----: |
 | _id | String | 填空题 ID |
 | title | String | 题目标题 |
-| answer | Array[String] | 答案(一个填空题可能有多个空) |
+| selections | Array[String] | 答案(一个填空题可能有多个空) |
 | diffculty | Number | 难度 |
-| author | String | 作者 |
 | type | String | 类型 |

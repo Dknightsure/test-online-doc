@@ -9,6 +9,7 @@
 | 字段 | 类型   | 描述 |
 | :---:  | :----: | :----: |
 | name | String | 试卷标题 |
+| date | Number | 试卷创建时间（时间戳)|
 | singleQuestions | Array | 单选题 |
 | mutipleQuestions | Array | 多选题 |
 | blankQuestions | Array | 填空题 |

@@ -11,8 +11,7 @@
 | :---:  | :----: | :----: |
 | _id | ObjectId | 多选题 ID |
 | title | String | 题目标题 |
-| itemList | Array | 题目标题 |
-| answer | Array | 答案（对应 itemList 里的下标） |
+| selections | Array | 题目标题 |
+| answer | Array | 答案（对应 selections 里的下标） |
 | diffculty | Number | 难度 |
-| author | String | 作者 |
 | type | String | 类型 |

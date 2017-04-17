@@ -6,6 +6,7 @@
 | :---:  | :----: | :----: |
 | _id | ObjectId | 试卷 ID |
 | name | String | 试卷标题 |
+| date | Number | 试卷创建时间(时间戳) |
 | singleQuestions | Array | 单选题 |
 | mutipleQuestions | Array | 多选题 |
 | blankQuestions | Array | 填空题 |
@@ -18,13 +19,16 @@
 {
     "_id" : ObjectId("583fc4343c5c757741b92b41"),
     "name" : "def",
+    "date: "912738410283410234"
     "blankQuestions" : [ 
         {
             "title" : "qwerqwerqwerqwe",
             "diffculty" : 3,
             "_id" : ObjectId("583fc4343c5c757741b92b44"),
-            "answer" : [ 
-                "asd"
+            "selections" : [ 
+                {
+                    "title": "asdfasdf"
+                }
             ]
         }
     ],
@@ -37,10 +41,16 @@
                 0, 
                 1
             ],
-            "itemList" : [ 
-                "qwe", 
-                "asd", 
-                "a"
+            "selections" : [ 
+                {
+                    "title": "asdfadf"
+                },
+                {
+                    "title": "asdfadf"
+                },
+                {
+                    "title": "asdfadf"
+                }
             ]
         }
     ],
@@ -50,10 +60,16 @@
             "answer" : 0,
             "diffculty" : 3.5,
             "_id" : ObjectId("583fc4343c5c757741b92b42"),
-            "itemList" : [ 
-                "asdf", 
-                "we", 
-                "er"
+            "selections" : [ 
+                {
+                    "title": "asdfadf"
+                },
+                {
+                    "title": "asdfadf"
+                },
+                {
+                    "title": "asdfadf"
+                }
             ]
         }
     ]

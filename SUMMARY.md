@@ -25,4 +25,5 @@
         * [填空题](api/remove/remove-blank-question.md)
     * [添加试卷](api/paper/add-paper.md)
     * [获取试卷](api/paper/get-papers.md)
+    * [删除试卷](api/paper/remove-paper.md)
 
